@@ -4,28 +4,30 @@ var number = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 0]
 var symbol = ["!" , "@" , "#" , "$" , "%" , "&" , "*"]
 var cap = ["A" , "B" , "C" , "D" , "E" , "F" , "G" , "H" , "I" , "J" , "K" , "L" , "M" , "N" , "O" , "P" , "Q" , "R" , "S" , "T" , "U" , "V" , "W" , "X" , "Y" , "Z"]
 var noCap = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w" , "x" , "y" , "z"] 
-var characters  =  window.prompt ("How many characters");
+var characters  =  window.prompt ("How long do you want your password to be? (Value from 8-128)");
 var capitol = window.confirm ("Do you want capitol letters?");
 var symbols = window.confirm ("Do you want symbols?");
 var numbers = window.confirm ("Do you want numbers?");
 //invasive pop up 
 // Get references to the #generate element  
-function validate() {
-  
+
+var passwordLength = parseInt(characters)
+  for (isNaN(passwordLength);){//;characters > 128; characters < 8) {
+    console.log("working")
+      //window.alert("Not a valid number between 8-128.")
+      var characters  =  window.prompt ("Input valid number between 8-128.")}
+  //  } 
+  //for (){
+      //window.alert ("Not a valid number between 8-128.")
+    //  var characters  =  window.prompt ("Input valid number between 8-128.")}
+    
+      //for {
+      //window.alert ("Not a valid number between 8-128.");
+      //var characters  =  window.prompt ("Input valid number between 8-128.");
+    //}
     
   
-  window.alert ("Characters need to be between 8-128");
-    var characters  =  window.prompt ("How many characters");
-    return arguments.callee;
-} 
-for (
-  {if (typeof parseInt(characters) === typeof 5) { window.alert ("Characters need to be between 8-128");
-  var characters  =  window.prompt ("How many characters");}} 
-  else {
- if (characters > 128) {
-  window.alert ("Characters need to be between 8-128");
-  var characters  =  window.prompt ("How many characters");
- }})
+  
 //if (characters > 128) {
   //window.alert ("Characters need to be between 8-128");
   //var characters  =  window.prompt ("How many characters");
