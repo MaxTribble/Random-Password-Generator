@@ -14,7 +14,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![screenshot of password length prompt](/assets/screenshot.png(3))
+![screenshot of password length prompt](/assets/image.png "Screenshot.png(3)")
 
 ## Credits
 
