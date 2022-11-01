@@ -10,23 +10,23 @@ var symbols = window.confirm ("Do you want symbols?");
 var numbers = window.confirm ("Do you want numbers?");
 //invasive pop up 
 // Get references to the #generate element  
-
-var passwordLength = parseInt(characters)
-  for (isNaN(passwordLength);){//;characters > 128; characters < 8) {
-    console.log("working")
+var characters = parseInt(characters)
+	
+while (isNaN(characters) || characters < 8 || characters > 128)//{;characters > 128; characters < 8) {
+    {console.log("working");
       //window.alert("Not a valid number between 8-128.")
-      var characters  =  window.prompt ("Input valid number between 8-128.")}
-  //  } 
+      var characters  =  window.prompt ("Input valid number between 8-128.");
+    } 
+console.log(characters)
   //for (){
       //window.alert ("Not a valid number between 8-128.")
     //  var characters  =  window.prompt ("Input valid number between 8-128.")}
-    
+//var characters = parseInt(characters)
       //for {
       //window.alert ("Not a valid number between 8-128.");
       //var characters  =  window.prompt ("Input valid number between 8-128.");
     //}
-    
-  
+
   
 //if (characters > 128) {
   //window.alert ("Characters need to be between 8-128");
