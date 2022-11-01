@@ -27,6 +27,6 @@ MIT License
 
 ## Features
 
--Generating a customized and randomized password.
+Generating a customized and randomized password:
 - The ability to choose password length (8-128 characters).
 - Allowing only certain elements to be present in the password (symbols, capitol letters and numbers).
